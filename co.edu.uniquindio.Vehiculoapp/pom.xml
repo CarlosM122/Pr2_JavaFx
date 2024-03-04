@@ -4,10 +4,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>co.edu.uniquindio.cliente</groupId>
-    <artifactId>cliente-app</artifactId>
+    <groupId>co.edu.uniquindio.Vehiculoapp</groupId>
+    <artifactId>VehiculoFx</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>co.edu.uniquindio.clientefx</name>
+    <name>co.edu.uniquindio.Vehiculoapp</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -61,7 +61,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                co.edu.uniquindio.cliente.clienteapp/co.edu.uniquindio.cliente.clienteapp.ClienteApplication
+                                co.edu.uniquindio.vehiculoapp.vehiculofx/co.edu.uniquindio.vehiculoapp.vehiculofx.VehiculoApplication
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
